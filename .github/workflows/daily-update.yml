@@ -41,8 +41,8 @@ jobs:
 
       - name: Commit & push if anything changed
         run: |
-          git config user.name  "duongdd"
-          git config user.email "170312353+daiduong-eth@users.noreply.github.com"
+          git config user.name  "kina2711"
+          git config user.email "183811251+kina2711@users.noreply.github.com"
           if git diff --quiet -- data/ README.md; then
             echo "no changes"
             exit 0
